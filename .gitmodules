@@ -1,0 +1,6 @@
+[submodule "openscad-openbuilds"]
+	path = openscad-openbuilds
+	url = https://github.com/mazerte/openscad-openbuilds
+[submodule "NopSCADlib"]
+	path = NopSCADlib
+	url = https://github.com/nophead/NopSCADlib
