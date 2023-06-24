@@ -299,13 +299,13 @@ module x_stepper_mount() {
 
     translate([-1 * profile_size - 6 -0.5 * NEMA_width(NEMA17_40), -1 * NEMA_width(NEMA17_40) / 2, 0]) {
         difference() {
-            cube([6 + profile_size, NEMA_width(NEMA17_40), 25]);
+            cube([6 + profile_size, NEMA_width(NEMA17_40), 35]);
 
-            translate([profile_size / 2, 7, 0]) cylinder(25, 2.5, 2.5);
-            translate([profile_size / 2, 7, 0]) cylinder(20, 5, 5);
+            translate([profile_size / 2, 7, 0]) cylinder(35, 2.5, 2.5);
+            translate([profile_size / 2, 7, 0]) cylinder(30, 5, 5);
 
-            translate([profile_size / 2, NEMA_width(NEMA17_40) - 7, 0]) cylinder(25, 2.5, 2.5);
-            translate([profile_size / 2, NEMA_width(NEMA17_40) - 7, 0]) cylinder(20, 5, 5);
+            translate([profile_size / 2, NEMA_width(NEMA17_40) - 7, 0]) cylinder(35, 2.5, 2.5);
+            translate([profile_size / 2, NEMA_width(NEMA17_40) - 7, 0]) cylinder(30, 5, 5);
         }
     }
 
